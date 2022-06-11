@@ -1,0 +1,79 @@
+/* *{reste- configura todos o site} */
+*{
+    margin: 0;
+    /* padding nao cresce alem do elemento principal */
+    padding: 0;
+    box-sizing: border-box;
+    /* font padrão  */
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 500;
+  
+  }
+body{
+    /* background cor de fundo */
+   background-color: #262626;
+   /* height altura da tela */
+   /* height: 1200px; */
+}
+main{
+       /* colocar a imagem */
+   background-image:url("../img/img.jpeg");
+    /* repetir a imagem */
+    background-repeat:repeat;
+    /* background-attachment:fixed; imagem fixada na tela*/
+    background-attachment:fixed;
+    /*  background-size: tamanho da imagem altura e largura */
+    background-size: 130px 90px;
+    /* background-position - posição da imagem  */
+    background-position: center center;
+    /* height altura vh - altura do monito  */
+    height: 100vh
+}
+
+
+h1{   
+    /* cor da fonte */
+    /* color:red; */
+    /* color:#ff0000;
+    color:rgb(255, 0, 0);
+    color:rgba(255, 0, 0,0.1);
+    color:#ff00000a;
+    color:#fff; */
+    color:rgb(89,39,150);
+    opacity: 0.9;
+    /* tamanho da fonte */
+    font-size: 20px;
+     /* font-weight: largura da fonte 100; */
+     font-weight: 700;
+     font-family:sans-serif
+    }
+    h2{
+        /* font-size tamanho da fonte */
+        font-size: 18px;
+        color:white
+       
+    }
+    table{
+        /* width largura */
+        width: 100%;
+        /* height altura */
+          }
+    section{
+        color:#0025a3
+      
+    }
+    /* id */
+    #segunda-section{
+        color:green;
+    }
+     /* class */
+     .dark-color{
+        color: #202020;
+    }
+    
+    .light-color{
+        color: #fff;
+    }
+   
+   
